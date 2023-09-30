@@ -1,0 +1,26 @@
+@media screen and (min-width: 300px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    .navbar{
+        /* height: 50px; */
+    }
+}   
+
+@media screen and (min-width: 960px) {
+    .burger {
+        display: none;
+    }
+    .navbar-ul {
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    
+}
+@media screen and(min-width:1200px) {
+
+}
