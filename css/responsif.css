@@ -1,3 +1,29 @@
+@media screen and (min-width: 1170px) {
+  /* .header .hello-skills {
+    font-size: 12rem;
+    margin: 9px;
+  }  */
+  .header .hello {
+    margin-top: 140px;
+  }
+  .navbar-ul {
+    display: block;
+    visibility: visible;
+  }
+  .sosmed .ig {
+    width: 60px;
+    margin-right: 20px;
+  }
+  .sosmed .github {
+    width: 80px;
+    margin-left: -10px;
+    margin-right: 10px;
+  }
+  .sosmed .gmail {
+    margin-right: 20px;
+    width: 60px;
+  }
+}
 @media screen and (min-width: 300px) {
   .inside .head-ach p {
     font-size: 1.5rem;
@@ -9,16 +35,87 @@
   }
 }
 
+  /* @media screen and (min-width: 1125px) {
+  
+  } */
+@media screen and (min-width: 1160px) {
+  .header img {
+    width: 30%;
+  }
+    .text-about {
+    margin-top: 10%;
+    /* margin: 9px; */
+  }
+
+  /* .header .hello-skills {
+    font-size: 1.2rem;
+    margin: 9px 0px;
+  }
+  .header .hello {
+    font-size: 2rem;
+  }
+  .header .hello2 {
+    font-size: 1.7rem;
+  }
+  .header .name {
+    font-size: 50px;
+  } */
+}
+
 @media screen and (min-width: 960px) {
+  /* .header .hello-skills {
+    font-size: 1.2rem;
+    margin: 9px 0px;
+  }
+  .header .hello {
+    font-size: 2rem;
+  }
+  .header .hello2 {
+    font-size: 1.7rem;
+  }
+  .header .name {
+    font-size: 50px;
+  }   */
+  /* .header .hello-skills {
+    font-size: 1rem;
+  } */
+ 
+  /* .header .name {
+    font-size: 2rem;
+  } */
+   .navbar-ul {
+     display: block;
+  }
   .burger {
     display: none;
   }
 }
 
 @media screen and (min-width: 880px) {
-
-  .navbar-ul {
+  .header .hello-skills {
+    font-size: 1.2rem;
+    margin: 9px 0px;
+  }
+  .header .hello {
+    font-size: 2rem;
+  }
+  .header .hello2 {
+    font-size: 1.7rem;
+  }
+  .header .name {
+    font-size: 50px;
+  }
+  .header {
+  display: flex;
+  flex-direction: row;
+  padding-left: 110px;
+  padding-right: 0px;
+  }
+  .header .photos {
     display: block;
+  }
+  .header .photos2 {
+    display: none;
   }
   .mainContact {
     width: 100%;
@@ -39,24 +136,7 @@
     padding-top: 10px;
     padding-right: 15px;
   }
-
 }
-@media screen and(min-width:1284px) {
-  .navbar-ul {
-    display: block;
-    visibility: visible;
-  }
-  .sosmed .ig {
-    width: 60px;
-    margin-right: 20px;
-  }
-  .sosmed .github {
-    width: 80px;
-    margin-left: -10px;
-    margin-right: 10px;
-  }
-  .sosmed .gmail {
-    margin-right: 20px;
-    width: 60px;
-  }
+@media screen and (min-width: 785px){
+
 }
