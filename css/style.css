@@ -204,23 +204,26 @@ li a:hover {
   color: white;
   padding-left: 110px;
   padding-top: 40px;
-  float: left;
+  display: flex;
+  flex-direction: row;
+  /* float: left; */
   /* background-color: #474E68; */
   background-image: linear-gradient(to bottom right, #414d73, #313a4d);
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  height: max-content;
 }
 
 .header .hello-skills {
-  font-size: 20px;
+  font-size: 1.2rem;
   margin: 9px;
 }
 .header .hello {
   margin-top: 140px;
-  font-size: 25px;
+  font-size: 2rem;
   color: #fff2d8;
 }
 .header .hello2 {
-  font-size: 25px;
+  font-size: 1.5rem;
   color: #fff2d8;
 }
 .header .ul-job {
@@ -240,13 +243,13 @@ li a:hover {
 .header img {
   width: 420px;
   margin-left: 10px;
-  float: right;
+  /* float: right; */
 }
 
 .keahlian {
   color: white;
   background-color: #262e41;
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 
 .keahlian .head-skills {

@@ -16,6 +16,7 @@
 }
 
 @media screen and (min-width: 880px) {
+
   .navbar-ul {
     display: block;
   }
@@ -38,6 +39,7 @@
     padding-top: 10px;
     padding-right: 15px;
   }
+
 }
 @media screen and(min-width:1284px) {
   .navbar-ul {
