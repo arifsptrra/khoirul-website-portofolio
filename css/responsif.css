@@ -35,14 +35,14 @@
   }
 }
 
-  /* @media screen and (min-width: 1125px) {
+/* @media screen and (min-width: 1125px) {
   
   } */
 @media screen and (min-width: 1160px) {
   .header img {
     width: 30%;
   }
-    .text-about {
+  .text-about {
     margin-top: 10%;
     /* margin: 9px; */
   }
@@ -79,12 +79,12 @@
   /* .header .hello-skills {
     font-size: 1rem;
   } */
- 
+
   /* .header .name {
     font-size: 2rem;
   } */
-   .navbar-ul {
-     display: block;
+  .navbar-ul {
+    display: block;
   }
   .burger {
     display: none;
@@ -106,10 +106,10 @@
     font-size: 50px;
   }
   .header {
-  display: flex;
-  flex-direction: row;
-  padding-left: 110px;
-  padding-right: 0px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 110px;
+    padding-right: 0px;
   }
   .header .photos {
     display: block;
@@ -137,6 +137,24 @@
     padding-right: 15px;
   }
 }
-@media screen and (min-width: 785px){
 
+@media screen and (min-width: 707px) {
+  .penghargaan .head-ach p {
+    font-size: 2.5rem;
+  }
+  .col-ach p {
+    font-size: 35px;
+    padding-top: 0px;
+  }
+  .col-ach li {
+    font-size: 18px;
+    /* margin-top: 0px; */
+  }
+  .col-ach {
+    margin: 0px;
+  }
+  .row-ach {
+    flex-direction: row;
+  }
 }
+

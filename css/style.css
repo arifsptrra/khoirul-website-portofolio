@@ -253,7 +253,7 @@ li a:hover {
   margin-left: 10px;
   height: auto;
   display: none;
-  
+
   /* float: right; */
 }
 
@@ -261,7 +261,7 @@ li a:hover {
   /* margin-left: 20%; */
   padding-top: 50px;
   /* padding-bottom: -20px; */
-  border-radius:40%;
+  border-radius: 40%;
   width: 200px;
 }
 .keahlian {
@@ -316,7 +316,7 @@ li a:hover {
   height: max-content;
 }
 .penghargaan {
-  padding-left: 50px;
+  padding-left: 5%;
   padding-top: 100px;
   padding-bottom: 100px;
   color: white;
@@ -324,36 +324,45 @@ li a:hover {
   background-image: linear-gradient(to bottom right, #444f71, #303f5f);
 }
 .penghargaan .head-ach p {
+  text-align: center;
   color: black;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 0 10px;
   margin: 0 auto;
-  font-size: 2.5rem;
+  font-size: 1rem;
   margin-bottom: 30px;
   /* position: relative; */
   background-color: #fff2d8;
   margin-top: -60px;
-  width: max-content;
+  /* width: max-content; */
 }
 .row-ach {
   display: flex;
-  flex-direction: row;
   /* flex-wrap: wrap; */
   display: flex;
+  /* flex-direction: row; */
+  flex-direction: column;
   /* width: 1400px; */
+
 }
 
 .col-ach {
-  width: 50%;
+  /* width: 50%; */
   /* float: left; */
+  margin: auto;
+  padding-right: 10%;
 }
 .col-ach p {
   text-align: center;
   /* text-align: center; */
-  font-size: 35px;
+  font-size: 15px;
   /* padding-left: 80px; */
+  padding-top: 20px
 }
 
+.col-ach li {
+  font-size: 80%;
+}
 #contact {
   padding-left: 150px;
   padding-top: 50px;
