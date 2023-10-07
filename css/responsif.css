@@ -63,30 +63,17 @@
 }
 
 @media screen and (min-width: 960px) {
-  /* .header .hello-skills {
-    font-size: 1.2rem;
-    margin: 9px 0px;
-  }
-  .header .hello {
-    font-size: 2rem;
-  }
-  .header .hello2 {
-    font-size: 1.7rem;
-  }
-  .header .name {
-    font-size: 50px;
-  }   */
-  /* .header .hello-skills {
-    font-size: 1rem;
-  } */
-
-  /* .header .name {
-    font-size: 2rem;
-  } */
   .navbar-ul {
     display: block;
+    top: 0;
+    right: 0;
   }
   .burger {
+    display: none;
+  }
+   .bg-navbar.change {
+    right: 0;
+    visibility: visible;
     display: none;
   }
 }
