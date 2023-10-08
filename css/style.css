@@ -1,120 +1,3 @@
-/* * {
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-}
-.navbar {
-    width: 100%;
-    position: fixed;
-    background-color: white;
-    opacity: 85%;
-}
-.logo {
-    width: 60px;
-    float: left;
-    margin-left: 50px;
-}
-.navbar-ul{
-    overflow: hidden;
-    display: block;
-    margin: 0;
-    list-style: none;
-    font-size: 17px;
-}
-li {
-    margin: 10px;
-    margin-right: 100px;
-    float: right;
-    padding-top: 10px;
-}
-
-.header {
-    padding-left: 110px;
-    padding-top: 40px;
-    float: left;
-    background-color: #474E68;
-    margin-bottom: 50px;
-}
-
-.header .hello-skills {
-    font-size: 20px;
-    margin: 10px;
-}
-.header .hello {
-    margin-top: 140px;
-    font-size: 25px;
-    color: #FFF2D8;
-}
-.header .hello2{
-    font-size: 25px;
-    color: #FFF2D8;
-}
-.header  .name {
-    font-size: 50px;
-}
-.header img {
-    width: 420px;
-    margin-left: 10px;
-    float: right;
-}
-
-.keahlian {
-    margin-bottom: 50px;
-}
-
-.keahlian .head-skills{
-    font-size: 30px;
-    text-align: center;
-}
-.divisi-skills {
-    flex-wrap: wrap;
-    display: flex;
-    margin-left: 330px;
-    text-align: center;
-}
-.keahlian img{
-    width: 45px;
-}
-.col {
-    float: left;
-    margin:45px;
-}
-.keahlian .body-img{
-    padding-top: 12px;  
-}
-.penghargaan{
-    margin-bottom: 50px;
-}
-.penghargaan .head-ach p{
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 30px;
-}
-.row-ach {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 200px;
-}
-
-.col-ach{
-    float: left;
-}
-
-.left {
-    width: 550px;
-}
-.left p {
-    font-size: 23px;
-    text-align: center;
-
-}
-.right p {
-    font-size: 23px;
-    text-align: center;
-
-}
-.right{
-    width: 550px;
-} */
 
 * {
   scroll-behavior: smooth;
@@ -126,7 +9,6 @@ li {
   position: fixed;
   z-index: 3;
   color: white;
-  /* opacity: 85%; */
   backdrop-filter: blur(50px);
   background: rgba(68, 79, 113, 0.8);
   transition: 0.3s;
@@ -218,7 +100,6 @@ li {
 
 li {
   margin: 10px;
-  margin-right: 100px;
   float: right;
   padding-top: 10px;
 }
@@ -235,23 +116,15 @@ li a:hover {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 40px;
-  /* display: flex;
-  flex-direction: row; */
-  /* float: left; */
-  /* background-color: #474E68; */
   background-image: linear-gradient(to bottom right, #414d73, #313a4d);
-  /* margin-bottom: 50px; */
   height: max-content;
 }
 
 .header .hello-skills {
-  /* font-size: 1.2rem; */
   font-size: 90%;
 
-  /* margin: 9px 0px; */
 }
 .header .hello {
-  /* margin-top: 100%; */
   font-size: 90%;
   color: #fff2d8;
 }
@@ -263,34 +136,19 @@ li a:hover {
   font-size: 90%;
   color: #fff2d8;
 }
-/* .header .ul-job {
-  margin-left: -44px;
-  /* width: 1000px; */
-
 .header .name {
-  /* font-size: 50px; */
   font-size: 100%;
-  /* margin-left: 7%; */
 }
-/* .header .job {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  /* float: left; */
-/* width: 309px; */
+
 .header .photos {
   width: 30%;
   margin-left: 10px;
   height: auto;
   display: none;
-
-  /* float: right; */
 }
 
 .header .photos2 {
-  /* margin-left: 20%; */
   padding-top: 50px;
-  /* padding-bottom: -20px; */
   border-radius: 40%;
   width: 200px;
 }
@@ -325,6 +183,7 @@ li a:hover {
   width: 70%;
 }
 .col {
+  padding: 10px;
   /* float: left; */
   margin: 45px;
   color: black;
@@ -361,39 +220,33 @@ li a:hover {
   margin: 0 auto;
   font-size: 1rem;
   margin-bottom: 30px;
-  /* position: relative; */
   background-color: #fff2d8;
   margin-top: -60px;
-  /* width: max-content; */
 }
 .row-ach {
   display: flex;
-  /* flex-wrap: wrap; */
   display: flex;
-  /* flex-direction: row; */
   flex-direction: column;
-  /* width: 1400px; */
 }
 
 .col-ach {
-  /* width: 50%; */
-  /* float: left; */
   margin: auto;
   padding-right: 10%;
 }
+
 .col-ach p {
   text-align: center;
-  /* text-align: center; */
   font-size: 15px;
-  /* padding-left: 80px; */
   padding-top: 20px;
 }
 
 .col-ach li {
   font-size: 80%;
 }
+
+/* contact session */
 #contact {
-  padding-left: 150px;
+  padding-left: 5%;
   padding-top: 50px;
   background-color: #262e41;
   padding-bottom: 60px;
@@ -407,11 +260,8 @@ li a:hover {
 
 .mainContact {
   width: 100%;
-  /* display: flex;
-  flex-wrap: wrap; */
 }
 form {
-  /* position: relative; */
   width: 48%;
   font-size: 1.4rem;
 }
@@ -429,7 +279,7 @@ textarea,
 button {
   color: #fff2d8;
   margin-bottom: 2rem;
-  width: 80%;
+  width: 170px;
   padding: 1.5rem 2rem;
   border: 3px solid white;
   border-radius: 3rem;
@@ -438,6 +288,7 @@ button {
 }
 form input:focus,
 textarea:focus {
+  width: 175px;
   outline: none;
 }
 form button {
@@ -455,9 +306,10 @@ form button {
 form button:hover {
   box-shadow: 0 0 0 4px #fff2d8;
 }
+
 .sosmed {
+  margin-left: 40px;
   margin-top: 30px;
-  /* margin-left: 10%; */
   width: 35%;
   height: 200px;
   border-radius: 50px;
@@ -469,13 +321,16 @@ form button:hover {
 
 .sosmed p {
   float: right;
+  display: none;
 }
 
 .sosmed-col {
-  float: left;
+  display: flex;
+  flex-direction: row;
   color: black;
 }
 .sosmed-col img {
+  margin-left: 26%;
   float: left;
   margin-bottom: 20px;
 }
@@ -485,13 +340,14 @@ form button:hover {
 }
 .sosmed .github {
   width: 3rem;
-  margin-left: -10px;
+  margin-left: 18px;
   margin-right: 10px;
 }
 .sosmed .gmail {
   margin-right: 20px;
   width: 2rem;
 }
+
 
 /* //transicition js */
 .hidden {
@@ -518,9 +374,3 @@ form button:hover {
   opacity: 1;
   transform: translateX(0);
 }
-
-/* @media(prefers-reduced-motion) {
-    .hidden{
-        transition: none;
-    }
-} */
